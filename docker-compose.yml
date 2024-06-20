@@ -1,0 +1,35 @@
+version: '3.3'
+
+services:
+
+  # COULDN'T USE A MSSQL SERVER SINCE THE LACK OF THE IMAGE FOR TARGET PLATFORM (macOS/arm64)
+
+  # mssql:
+  #   platform: linux/arm64/v8
+  #   container_name: sql-server
+  #   image: mcr.microsoft.com/mssql/server:2022-latest
+  #   restart: always
+  #   environment:
+  #     ACCEPT_EULA: "Y"
+  #     SA_PASSWORD: "Contraseña12345678"
+  #   ports:
+  #     - 1433:1433
+  #   volumes:
+  #     - mssql_volume:/var/opt/mssql
+
+  pgsql:
+    container_name: postgres_container
+    image: postgres:14.12-alpine3.20
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: MB_prods_cats
+      PGDATA: /data/postgres
+    volumes:
+       - pgsql_volume:/data/postgres
+    ports:
+      - "5432:5432"
+      
+volumes:
+  pgsql_volume:
+  # mssql_volume:
