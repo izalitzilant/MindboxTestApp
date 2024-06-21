@@ -2,7 +2,6 @@
 
 public class Triangle : PlaneFigure
 {
-    # region 
     private double _sideMax;
     private double _sideMin;
     private double _sideMid;
@@ -14,7 +13,7 @@ public class Triangle : PlaneFigure
         {
             if (value <= 0)
             {
-                throw new ArgumentException("Side cannot be less or equal to zero.");
+                throw new ArgumentException("SideMax cannot be less or equal to zero.");
             }
             
             _sideMax = value;
@@ -27,7 +26,7 @@ public class Triangle : PlaneFigure
         {
             if (value <= 0)
             {
-                throw new ArgumentException("Side cannot be less or equal to zero.");
+                throw new ArgumentException("SideMid cannot be less or equal to zero.");
             }
 
             _sideMid = value;
@@ -40,33 +39,45 @@ public class Triangle : PlaneFigure
         {
             if (value <= 0)
             {
-                throw new ArgumentException("Side cannot be less or equal to zero.");
+                throw new ArgumentException("SideMin cannot be less or equal to zero.");
             }
 
             _sideMin = value;
         }
     }
-    
-    #endregion
     public new double Square => base.Square;
     public bool IsRectangular { get; private set; }
+    public bool IsEquilateral { get; private set; }
     
     public Triangle(double sideA, double sideB, double sideC)
     {
-        double perimeter = sideA + sideB + sideC;
-        
-        sideMax = Math.Max(sideA, Math.Max(sideB, sideC));
-        sideMin = Math.Min(sideA, Math.Min(sideB, sideC));
-        sideMid = perimeter - sideMax - sideMin;
-
+        var perimeter = sideA + sideB + sideC;
+        var maxSide = Math.Max(sideA, Math.Max(sideB, sideC));
+        var minSide = Math.Min(sideA, Math.Min(sideB, sideC));
+        var midSide = perimeter - maxSide - minSide;
+        sideMid = midSide;
+        sideMax = maxSide;
+        sideMin = minSide;
         if (sideMax >= sideMid + sideMin)
         {
             throw new Exception("Triangle inequality theorem is disproved.");
         }
-
-        IsRectangular = CheckPythagorean(sideMax, sideMid, sideMin);
-        base.Square = HeronsFormula(perimeter, sideA, sideB, sideC);
+        IsEquilateral = false;
+        IsRectangular = CheckPythagorean(_sideMax, _sideMid, _sideMin);
+        base.Square = HeronsFormula(perimeter, _sideMax, _sideMid, _sideMin);
     }
+
+    public Triangle(double side)
+    {
+        var perimeter = 3 * side;
+        sideMax = side;
+        sideMid = side;
+        sideMin = side;
+        IsRectangular = false;
+        IsEquilateral = true;
+        base.Square = HeronsFormula(perimeter, _sideMax, _sideMid, _sideMin);
+    }
+
     bool CheckPythagorean(double hypotenuze, double catet1, double catet2)
     { 
         return Math.Pow(hypotenuze, 2) == Math.Pow(catet1, 2) + Math.Pow(catet2, 2);

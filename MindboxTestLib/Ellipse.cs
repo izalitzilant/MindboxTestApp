@@ -1,13 +1,11 @@
 namespace MindboxTestLib;
 
-public class Ellipsoid: PlaneFigure
+public class Ellipse: PlaneFigure
 {
-    #region 
-    
     private double _radiusX;
     private double _radiusY;
     
-    public double radiusX
+    public double RadiusX
     {
         get => _radiusX;
         private set
@@ -16,9 +14,10 @@ public class Ellipsoid: PlaneFigure
             {
                 throw new ArgumentException("radiusX cannot be less or equal to zero");
             }
+            _radiusX = value;
         }
     }
-    public double radiusY
+    public double RadiusY
     {
         get => _radiusY;
         private set
@@ -27,18 +26,17 @@ public class Ellipsoid: PlaneFigure
             {
                 throw new ArgumentException("radiusY cannot be less or equal to zero");
             }
+            _radiusY = value;
         }
     }
     
-    #endregion
-
     public new double Square => base.Square;
 
-    public Ellipsoid(double radiusA, double radiusB)
+    public Ellipse(double radiusX, double radiusY)
     {
-        radiusX = radiusA;
-        radiusY = radiusB;
-        base.Square = GetSquare(radiusA, radiusB);
+        RadiusX = radiusX;
+        RadiusY = radiusY;
+        base.Square = GetSquare(radiusX, radiusY);
     }
     private double GetSquare(double radiusA, double radiusB)
     {

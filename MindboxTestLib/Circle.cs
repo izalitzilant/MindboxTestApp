@@ -6,7 +6,7 @@ public class Circle: PlaneFigure
 
     public Circle(double radius)
     {
-        var circle = new Ellipsoid(radius, radius);
+        var circle = new Ellipse(radius, radius);
         base.Square = circle.Square;
     }
 }
