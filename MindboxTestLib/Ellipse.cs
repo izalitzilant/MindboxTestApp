@@ -1,3 +1,5 @@
+using System;
+
 namespace MindboxTestLib;
 
 public class Ellipse: PlaneFigure, IPlaneFigure

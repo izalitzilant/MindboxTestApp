@@ -1,4 +1,6 @@
-﻿namespace MindboxTestLib;
+﻿using System;
+
+namespace MindboxTestLib;
 
 public class Triangle : PlaneFigure, IPlaneFigure
 {
