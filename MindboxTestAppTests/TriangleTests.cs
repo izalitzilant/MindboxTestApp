@@ -1,3 +1,5 @@
+using System;
+
 namespace MindboxTestAppTests;
 using MindboxTestLib;
 using NUnit.Framework;

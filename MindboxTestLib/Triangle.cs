@@ -1,6 +1,6 @@
 ﻿namespace MindboxTestLib;
 
-public class Triangle : PlaneFigure
+public class Triangle : PlaneFigure, IPlaneFigure
 {
     private double _sideMax;
     private double _sideMin;
@@ -88,6 +88,11 @@ public class Triangle : PlaneFigure
         perim /= 2;
         var s = perim * (perim - sideA) * (perim - sideB) * (perim - sideC);
         return Math.Sqrt(s);
+    }
+
+    public double GetSquare()
+    {
+        return Square;
     }
 }
 

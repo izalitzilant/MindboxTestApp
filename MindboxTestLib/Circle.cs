@@ -1,8 +1,12 @@
 namespace MindboxTestLib;
 
-public class Circle: PlaneFigure
+public class Circle: PlaneFigure, IPlaneFigure
 {
     public new double Square => base.Square;
+    public double GetSquare()
+    {
+        return Square;
+    }
 
     public Circle(double radius)
     {

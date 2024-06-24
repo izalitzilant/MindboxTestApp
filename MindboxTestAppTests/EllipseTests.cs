@@ -1,3 +1,4 @@
+using System;
 using MindboxTestLib;
 namespace MindboxTestAppTests;
 
@@ -33,5 +34,11 @@ public class EllipseTest
     {
         var exception = Assert.Throws<ArgumentException>(() => { new Ellipse(8, 0); });
         Assert.That(exception.Message, Is.EqualTo("radiusY cannot be less or equal to zero"));
+    }
+    [Test]
+    public void SquareTools_GetEllipseSquareTests()
+    {
+        var ellSquare = SquareTools.S(new Ellipse(5, 5));
+        Assert.That(ellSquare, Is.EqualTo(5 * 5 * Math.PI));
     }
 }

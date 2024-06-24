@@ -1,6 +1,6 @@
 namespace MindboxTestLib;
 
-public class Ellipse: PlaneFigure
+public class Ellipse: PlaneFigure, IPlaneFigure
 {
     private double _radiusX;
     private double _radiusY;
@@ -31,6 +31,10 @@ public class Ellipse: PlaneFigure
     }
     
     public new double Square => base.Square;
+    public double GetSquare()
+    {
+        return Square;
+    }
 
     public Ellipse(double radiusX, double radiusY)
     {
