@@ -10,3 +10,15 @@
 /Users/ildarzalaliev/RiderProjects/MindboxTestApp/MindboxTestLib/obj/Debug/net8.0/MindboxTestLib.pdb
 /Users/ildarzalaliev/RiderProjects/MindboxTestApp/MindboxTestLib/obj/Debug/net8.0/ref/MindboxTestLib.dll
 /Users/ildarzalaliev/RiderProjects/MindboxTestApp/MindboxTestLib/obj/Debug/net8.0/MindboxTestLib.sourcelink.json
+/Users/ildarzalaliev/Desktop/routine/mb_rep/MindboxTestApp/MindboxTestLib/bin/Debug/net8.0/MindboxTestLib.deps.json
+/Users/ildarzalaliev/Desktop/routine/mb_rep/MindboxTestApp/MindboxTestLib/bin/Debug/net8.0/MindboxTestLib.dll
+/Users/ildarzalaliev/Desktop/routine/mb_rep/MindboxTestApp/MindboxTestLib/bin/Debug/net8.0/MindboxTestLib.pdb
+/Users/ildarzalaliev/Desktop/routine/mb_rep/MindboxTestApp/MindboxTestLib/obj/Debug/net8.0/MindboxTestLib.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ildarzalaliev/Desktop/routine/mb_rep/MindboxTestApp/MindboxTestLib/obj/Debug/net8.0/MindboxTestLib.AssemblyInfoInputs.cache
+/Users/ildarzalaliev/Desktop/routine/mb_rep/MindboxTestApp/MindboxTestLib/obj/Debug/net8.0/MindboxTestLib.AssemblyInfo.cs
+/Users/ildarzalaliev/Desktop/routine/mb_rep/MindboxTestApp/MindboxTestLib/obj/Debug/net8.0/MindboxTestLib.csproj.CoreCompileInputs.cache
+/Users/ildarzalaliev/Desktop/routine/mb_rep/MindboxTestApp/MindboxTestLib/obj/Debug/net8.0/MindboxTestLib.sourcelink.json
+/Users/ildarzalaliev/Desktop/routine/mb_rep/MindboxTestApp/MindboxTestLib/obj/Debug/net8.0/MindboxTestLib.dll
+/Users/ildarzalaliev/Desktop/routine/mb_rep/MindboxTestApp/MindboxTestLib/obj/Debug/net8.0/refint/MindboxTestLib.dll
+/Users/ildarzalaliev/Desktop/routine/mb_rep/MindboxTestApp/MindboxTestLib/obj/Debug/net8.0/MindboxTestLib.pdb
+/Users/ildarzalaliev/Desktop/routine/mb_rep/MindboxTestApp/MindboxTestLib/obj/Debug/net8.0/ref/MindboxTestLib.dll
