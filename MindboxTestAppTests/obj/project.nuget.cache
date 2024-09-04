@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZM1reu6Fkh9McI7085b21Ekx+0Rl8nC9NTQVpLUeM2sLYppZxAjmCNRG2vn+SMX2DJBLqyNsXarRdCr9vTpl5g==",
+  "dgSpecHash": "YuZQRqllRvlcOP0IsijDbKJ33f2skAgaO2WasPYCEpa9SONevnZXDwBsVgLb/sZQqthSSw5k7xaPtWks74Hm+A==",
   "success": true,
-  "projectFilePath": "/Users/ildarzalaliev/RiderProjects/MindboxTestApp/MindboxTestAppTests/MindboxTestAppTests.csproj",
+  "projectFilePath": "/Users/ildarzalaliev/Desktop/routine/mb_rep/MindboxTestApp/MindboxTestAppTests/MindboxTestAppTests.csproj",
   "expectedPackageFiles": [
     "/Users/ildarzalaliev/.nuget/packages/coverlet.collector/6.0.0/coverlet.collector.6.0.0.nupkg.sha512",
     "/Users/ildarzalaliev/.nuget/packages/microsoft.codecoverage/17.6.0/microsoft.codecoverage.17.6.0.nupkg.sha512",

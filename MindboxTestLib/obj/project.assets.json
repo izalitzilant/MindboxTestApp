@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ildarzalaliev/RiderProjects/MindboxTestApp/MindboxTestLib/MindboxTestLib.csproj",
+      "projectUniqueName": "/Users/ildarzalaliev/Desktop/routine/mb_rep/MindboxTestApp/MindboxTestLib/MindboxTestLib.csproj",
       "projectName": "MindboxTestLib",
-      "projectPath": "/Users/ildarzalaliev/RiderProjects/MindboxTestApp/MindboxTestLib/MindboxTestLib.csproj",
+      "projectPath": "/Users/ildarzalaliev/Desktop/routine/mb_rep/MindboxTestApp/MindboxTestLib/MindboxTestLib.csproj",
       "packagesPath": "/Users/ildarzalaliev/.nuget/packages/",
-      "outputPath": "/Users/ildarzalaliev/RiderProjects/MindboxTestApp/MindboxTestLib/obj/",
+      "outputPath": "/Users/ildarzalaliev/Desktop/routine/mb_rep/MindboxTestApp/MindboxTestLib/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/ildarzalaliev/.nuget/NuGet/NuGet.Config"

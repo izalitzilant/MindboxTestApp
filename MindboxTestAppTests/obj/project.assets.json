@@ -1007,11 +1007,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ildarzalaliev/RiderProjects/MindboxTestApp/MindboxTestAppTests/MindboxTestAppTests.csproj",
+      "projectUniqueName": "/Users/ildarzalaliev/Desktop/routine/mb_rep/MindboxTestApp/MindboxTestAppTests/MindboxTestAppTests.csproj",
       "projectName": "MindboxTestAppTests",
-      "projectPath": "/Users/ildarzalaliev/RiderProjects/MindboxTestApp/MindboxTestAppTests/MindboxTestAppTests.csproj",
+      "projectPath": "/Users/ildarzalaliev/Desktop/routine/mb_rep/MindboxTestApp/MindboxTestAppTests/MindboxTestAppTests.csproj",
       "packagesPath": "/Users/ildarzalaliev/.nuget/packages/",
-      "outputPath": "/Users/ildarzalaliev/RiderProjects/MindboxTestApp/MindboxTestAppTests/obj/",
+      "outputPath": "/Users/ildarzalaliev/Desktop/routine/mb_rep/MindboxTestApp/MindboxTestAppTests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/ildarzalaliev/.nuget/NuGet/NuGet.Config"
@@ -1026,8 +1026,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/ildarzalaliev/RiderProjects/MindboxTestApp/MindboxTestLib/MindboxTestLib.csproj": {
-              "projectPath": "/Users/ildarzalaliev/RiderProjects/MindboxTestApp/MindboxTestLib/MindboxTestLib.csproj"
+            "/Users/ildarzalaliev/Desktop/routine/mb_rep/MindboxTestApp/MindboxTestLib/MindboxTestLib.csproj": {
+              "projectPath": "/Users/ildarzalaliev/Desktop/routine/mb_rep/MindboxTestApp/MindboxTestLib/MindboxTestLib.csproj"
             }
           }
         }
